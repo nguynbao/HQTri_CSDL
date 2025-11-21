@@ -1,0 +1,61 @@
+.showtime-item-widget {
+  position: relative;
+  width: 250px; /* tùy chỉnh rộng */
+  height: 180px; /* tùy chỉnh cao */
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border: 1px solid transparent;
+  box-shadow: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* lớp phủ gradient + flex căn giữa */
+.showtime-overlay {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* căn giữa theo chiều dọc */
+  align-items: center; /* căn giữa chiều ngang cho time */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+}
+
+/* Box đỏ ở trên cùng trung tâm, tránh trùng class với FilmItemWidget */
+.showtime-new-badge {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e50914; /* đỏ Netflix cho đẹp */
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Thời gian ở chính giữa */
+.showtime-time {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+/* Hiệu ứng hover */
+.showtime-item-widget:hover {
+  transform: scale(1.05);
+  border-color: rgba(229, 9, 20, 0.6); /* đỏ nhưng trong suốt một tí */
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.5);
+}
+
+.showtime-item-widget.selected {
+  transform: scale(1.05);
+  border-color: rgba(229, 9, 20, 0.8);
+  box-shadow: 0 0 18px rgba(229, 9, 20, 0.7);
+}

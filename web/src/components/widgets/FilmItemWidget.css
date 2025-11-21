@@ -1,0 +1,47 @@
+/* Container chính của widget */
+.film-item-widget {
+  position: relative; /* Quan trọng: để nhãn New Added có thể định vị tuyệt đối */
+  height: 194px;      /* Chiều cao cố định cho widget */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px; /* Bo góc 15px */
+  overflow: hidden;    /* Đảm bảo nội dung bên trong không tràn ra khỏi góc bo */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.film-item-widget:hover {
+    transform: scale(1.03); /* Hiệu ứng phóng to nhẹ khi hover */
+}
+
+.film-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.15));
+}
+
+.new-added-badge {
+  position: absolute;
+  top: 10px;
+  background-color: #dc3545; /* Màu đỏ của Bootstrap (danger) */
+  color: white;
+  padding: 5px ;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.film-duration {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+}
+
+.film-meta h5 {
+  font-weight: 700;
+}

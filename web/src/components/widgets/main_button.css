@@ -1,0 +1,14 @@
+.main-button {
+  background-color: #e50914; /* Màu đỏ đặc trưng của Netflix */
+  color: white;
+  border: 15px transparent;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+  background-color: #b00710;
+}
