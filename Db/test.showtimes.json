@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "movie_id": {
+    "$oid": "692025e135677d199ae6a150"
+  },
+  "room": "Phòng 1",
+  "start_time": {
+    "$date": "2025-11-21T09:42:09.974Z"
+  },
+  "status": "Active",
+  "imageUrl": "https://d1j8r0kxyu9tj8.cloudfront.net/images/1566809284X4pyEDCj7CFMsGu.jpg",
+  "seats": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:09.977Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:09.977Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "movie_id": {
+    "$oid": "692025e135677d199ae6a151"
+  },
+  "room": "Phòng 2",
+  "start_time": {
+    "$date": "2025-11-21T11:42:09.974Z"
+  },
+  "status": "Active",
+  "imageUrl": "https://designercomvn.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/06/27045927/top-15-bo-phim-kinh-di-khong-dam-xem-mot-minh.jpg",
+  "seats": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:09.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:09.978Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "movie_id": {
+    "$oid": "692025e135677d199ae6a152"
+  },
+  "room": "Phòng 3",
+  "start_time": {
+    "$date": "2025-11-21T13:42:09.974Z"
+  },
+  "status": "Active",
+  "imageUrl": "https://simg.zalopay.com.vn/zlp-website/assets/phim_ma_kinh_di_55_0c5f230d15.jpg",
+  "seats": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:09.978Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:09.978Z"
+  }
+}]

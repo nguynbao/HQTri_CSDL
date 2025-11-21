@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "692041e4be1913734a4a9151"
+  },
+  "user_id": {
+    "$oid": "000000000000000000000001"
+  },
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "seat_id": "A1",
+  "price": 90000,
+  "status": "pending_payment",
+  "version": 0,
+  "createdAt": {
+    "$date": "2025-11-21T10:41:40.296Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T10:41:40.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692041e5be1913734a4a9154"
+  },
+  "user_id": {
+    "$oid": "000000000000000000000001"
+  },
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "seat_id": "A2",
+  "price": 90000,
+  "status": "pending_payment",
+  "version": 0,
+  "createdAt": {
+    "$date": "2025-11-21T10:41:41.306Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T10:41:41.306Z"
+  },
+  "__v": 0
+}]

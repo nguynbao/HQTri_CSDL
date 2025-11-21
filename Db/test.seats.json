@@ -1,0 +1,630 @@
+[{
+  "_id": {
+    "$oid": "692025e235677d199ae6a158"
+  },
+  "seat_id": "A1",
+  "seatCode": "A1",
+  "row": "A",
+  "number": 1,
+  "type": "vip",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T10:41:41.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a159"
+  },
+  "seat_id": "A2",
+  "seatCode": "A2",
+  "row": "A",
+  "number": 2,
+  "type": "standard",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T10:41:41.308Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15a"
+  },
+  "seat_id": "A3",
+  "seatCode": "A3",
+  "row": "A",
+  "number": 3,
+  "type": "standard",
+  "status": "pending_payment",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T10:30:55.748Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15b"
+  },
+  "seat_id": "A4",
+  "seatCode": "A4",
+  "row": "A",
+  "number": 4,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:45:11.028Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15c"
+  },
+  "seat_id": "B1",
+  "seatCode": "B1",
+  "row": "B",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:45:11.028Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15d"
+  },
+  "seat_id": "B2",
+  "seatCode": "B2",
+  "row": "B",
+  "number": 2,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.008Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15e"
+  },
+  "seat_id": "B3",
+  "seatCode": "B3",
+  "row": "B",
+  "number": 3,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a15f"
+  },
+  "seat_id": "B4",
+  "seatCode": "B4",
+  "row": "B",
+  "number": 4,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a160"
+  },
+  "seat_id": "C1",
+  "seatCode": "C1",
+  "row": "C",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a161"
+  },
+  "seat_id": "C2",
+  "seatCode": "C2",
+  "row": "C",
+  "number": 2,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a154"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a162"
+  },
+  "seat_id": "A1",
+  "seatCode": "A1",
+  "row": "A",
+  "number": 1,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a163"
+  },
+  "seat_id": "A2",
+  "seatCode": "A2",
+  "row": "A",
+  "number": 2,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a164"
+  },
+  "seat_id": "A3",
+  "seatCode": "A3",
+  "row": "A",
+  "number": 3,
+  "type": "standard",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a165"
+  },
+  "seat_id": "A4",
+  "seatCode": "A4",
+  "row": "A",
+  "number": 4,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a166"
+  },
+  "seat_id": "B1",
+  "seatCode": "B1",
+  "row": "B",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a167"
+  },
+  "seat_id": "B2",
+  "seatCode": "B2",
+  "row": "B",
+  "number": 2,
+  "type": "standard",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a168"
+  },
+  "seat_id": "B3",
+  "seatCode": "B3",
+  "row": "B",
+  "number": 3,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a169"
+  },
+  "seat_id": "B4",
+  "seatCode": "B4",
+  "row": "B",
+  "number": 4,
+  "type": "standard",
+  "status": "maintenance",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16a"
+  },
+  "seat_id": "C1",
+  "seatCode": "C1",
+  "row": "C",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16b"
+  },
+  "seat_id": "C2",
+  "seatCode": "C2",
+  "row": "C",
+  "number": 2,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a155"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16c"
+  },
+  "seat_id": "A1",
+  "seatCode": "A1",
+  "row": "A",
+  "number": 1,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16d"
+  },
+  "seat_id": "A2",
+  "seatCode": "A2",
+  "row": "A",
+  "number": 2,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16e"
+  },
+  "seat_id": "A3",
+  "seatCode": "A3",
+  "row": "A",
+  "number": 3,
+  "type": "standard",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a16f"
+  },
+  "seat_id": "A4",
+  "seatCode": "A4",
+  "row": "A",
+  "number": 4,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a170"
+  },
+  "seat_id": "B1",
+  "seatCode": "B1",
+  "row": "B",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a171"
+  },
+  "seat_id": "B2",
+  "seatCode": "B2",
+  "row": "B",
+  "number": 2,
+  "type": "standard",
+  "status": "booked",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a172"
+  },
+  "seat_id": "B3",
+  "seatCode": "B3",
+  "row": "B",
+  "number": 3,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a173"
+  },
+  "seat_id": "B4",
+  "seatCode": "B4",
+  "row": "B",
+  "number": 4,
+  "type": "standard",
+  "status": "maintenance",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a174"
+  },
+  "seat_id": "C1",
+  "seatCode": "C1",
+  "row": "C",
+  "number": 1,
+  "type": "standard",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "692025e235677d199ae6a175"
+  },
+  "seat_id": "C2",
+  "seatCode": "C2",
+  "row": "C",
+  "number": 2,
+  "type": "vip",
+  "status": "available",
+  "showtime_id": {
+    "$oid": "692025e135677d199ae6a156"
+  },
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  },
+  "updatedAt": {
+    "$date": "2025-11-21T08:42:10.009Z"
+  }
+}]

@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "692025e135677d199ae6a150"
+  },
+  "title": "The Nun",
+  "duration": 96,
+  "genre": "Horror",
+  "imageUrl": "https://d1j8r0kxyu9tj8.cloudfront.net/images/1566809284X4pyEDCj7CFMsGu.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692025e135677d199ae6a151"
+  },
+  "title": "Insidious",
+  "duration": 103,
+  "genre": "Horror",
+  "imageUrl": "https://designercomvn.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/06/27045927/top-15-bo-phim-kinh-di-khong-dam-xem-mot-minh.jpg",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "692025e135677d199ae6a152"
+  },
+  "title": "Conjuring",
+  "duration": 112,
+  "genre": "Horror",
+  "imageUrl": "https://simg.zalopay.com.vn/zlp-website/assets/phim_ma_kinh_di_55_0c5f230d15.jpg",
+  "__v": 0
+}]
